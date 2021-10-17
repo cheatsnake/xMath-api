@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+code {
+    background-color: rgb(228, 228, 228);
+    border-radius: 0.3rem;
+    font-family: courier, monospace;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__title {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.header__subtitle {
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(48, 101, 214);
+    border: 2px solid rgb(48, 101, 214);
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    transition: 0.4s all;
+}
+.btn:hover {
+    background-color: rgb(48, 101, 214);
+    color: #000;
+}
+
+.body {
+    padding: 0 0 2rem 0;
+}
+
+.body__title {
+    color: rgb(48, 101, 214);
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.body__text {
+    margin-top: 0.5rem;
+}
+.body__text a {
+    color: rgb(48, 101, 214);
+    text-decoration: none;
+}
+.body__subtitle {
+    margin: 1rem 0 0 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.link {
+    margin: 0.3rem 0 1.2rem 0;
+    padding: 1rem 1.2rem;
+    background-color: rgb(228, 228, 228);
+    border-radius: 0.3rem;
+}
+
+.footer {
+    padding: 0.5rem 0;
+    background-color: rgb(228, 228, 228);
+}
+.footer p {
+    font-weight: 300;
+    opacity: 0.7;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(48, 101, 214);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(29, 71, 161);
+}

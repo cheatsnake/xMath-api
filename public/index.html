@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xMath API</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="logo.png" alt="logo">
+            <h1 class="header__title">xMath API</h1>
+            <h2 class="header__subtitle">A free API for generating random mathematical expressions.</h2>
+            <a href="https://github.com/cheatsnake/xMath-api" target="blank" class="btn">View on GitHub</a>
+        </div>
+    </header>
+
+    <section class="body">
+        <div class="container">
+            <h2 class="body__title">Inspirations</h2>
+            <p class="body__text">I've always liked math, so one of my open source projects was an <a href="https://cheatsnake.github.io/MindMath/menu">oral counting simulator</a>. To do this, I wrote code that generates random expressions right inside the application. Now, I decided to separate the application logic and make a free API out of it so that you can create your cool apps.</p>
+
+            <h2 class="body__title">How to use it?</h2>
+            <p class="body__text">The API provides you with the ability to get a random expression with mathematical operations such as addition, subtraction, multiplication or division. You get an object containing two numbers, an operation sign, and the result of an expression.
+                <br> <br>
+            You can choose the operation you need or get a random operation.</p>
+            <h3 class="body__subtitle">Random expression</h3>
+            <div class="link">https://x-math.herokuapp.com/api/random</div>
+            <h3 class="body__subtitle">Only addition</h3>
+            <div class="link">https://x-math.herokuapp.com/api/add</div>
+            <h3 class="body__subtitle">Only subtraction</h3>
+            <div class="link">https://x-math.herokuapp.com/api/sub</div>
+            <h3 class="body__subtitle">Only multiplication</h3>
+            <div class="link">https://x-math.herokuapp.com/api/mul</div>
+            <h3 class="body__subtitle">Only division</h3>
+            <div class="link">https://x-math.herokuapp.com/api/div</div>
+
+            <h2 class="body__title">Parameters</h2>
+            <p class="body__text">By default, the range of numbers from 1 to 99 is set for all expressions. But you can adjust the range (for any operation) yourself using the parameters.</p>
+            <h3 class="body__subtitle">Range of generated numbers</h3>
+            <p class="body__text">The <i>max</i> and <i>min</i> parameters change the possible range for each number in the expression.</p>
+            <div class="link">?max=999&min=100</div>
+            <p class="body__text">The <i>maxFirst</i> and <i>minFirst</i> parameters change the possible range only for the first number (the second number uses the default value).</p>
+            <div class="link">?maxFirst=256&minFirst=128</div>
+            <p class="body__text">The <i>maxSecond</i> and <i>minSecond</i> parameters change the possible range only for the second number (does not affect division, because there the second number is randomly selected from the list of divisors of the first number).</p>
+            <div class="link">?maxSecond=256&minSecond=128</div>
+            <h3 class="body__subtitle">Negative result</h3>
+            <p class="body__text">To get expressions that result in negative numbers, you can change the range of values using the parameters described above by adding negative numbers there. 
+                <br><br>
+            But this will not work for the subtraction operation, because by default there the first number is always greater than the second. To fix this, you can use the parameter <i>negative</i> in the value 1.</p>
+            <div class="link">https://x-math.herokuapp.com/api/sub?negative=1</div>
+
+            <h2 class="body__title">Examples</h2>
+            <div class="link">https://x-math.herokuapp.com/api/random?max=999&negative=1</div>
+            <div class="link">https://x-math.herokuapp.com/api/mul?maxFirst=999&maxSecond=20</div>
+            <div class="link">https://x-math.herokuapp.com/api/add?max=500&minFirst=100</div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Don't forget to put an star in our repository on GitHub.</p>
+        </div>
+    </footer>
+</body>
+</html>
