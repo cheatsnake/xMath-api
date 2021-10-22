@@ -71,3 +71,16 @@ https://x-math.herokuapp.com/api/mul?maxFirst=999&maxSecond=20
 ```sh
 https://x-math.herokuapp.com/api/add?max=500&minFirst=100
 ```
+
+## Available Scripts for Developers
+
+In the project directory, you can run:
+
+### `npm start`
+Runs the server.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm run dev`
+Runs the server with Nodemon for development.\
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
