@@ -1,5 +1,6 @@
-class Generator {
-    
+import { randomNumber, findingDivisor } from "./helper.service.js";
+
+export default class Generator {
     addition(maxFirst, minFirst, maxSecond, minSecond) {
         const first = randomNumber(maxFirst, minFirst);
         const second = randomNumber(maxSecond, minSecond);
@@ -63,28 +64,6 @@ class Generator {
         }
     }
 }
-
-function randomNumber(max, min) {
-    return Math.round(Math.random() * (max - min)) + min;
-}
-
-function findingDivisor(number) {
-    const arr = [];
-
-    if (number < 0) {
-        for (let i = number; i <= 0; i++) {
-            if (number % i === 0) arr.push(i);
-        }
-    } else {
-        for (let i = 1; i <= number; i++) {
-            if (number % i === 0) arr.push(i);
-        }
-    }
-
-    return arr[randomNumber(arr.length - 2, 1)];
-}
-
-module.exports = new Generator();
 
 
 
