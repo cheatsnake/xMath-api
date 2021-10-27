@@ -76,11 +76,27 @@ https://x-math.herokuapp.com/api/add?max=500&minFirst=100
 
 In the project directory, you can run:
 
-### `npm start`
-Runs the server.\
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
-
-### `npm run dev`
+```sh
+npm run dev
+```
 Runs the server with Nodemon for development.\
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You will also see any lint errors in the console.\
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+
+```sh
+npm run test
+```
+Launch tests.
+
+```sh
+npm run build
+```
+Create a production build.
+
+```sh
+npm start
+```
+Runs the server of production build.\
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+
