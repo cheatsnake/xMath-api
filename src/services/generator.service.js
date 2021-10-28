@@ -1,6 +1,6 @@
 import { randomNumber, findingDivisor } from "./helper.service.js";
 
-export default class Generator {
+class Generator {
     addition(maxFirst, minFirst, maxSecond, minSecond) {
         const first = randomNumber(maxFirst, minFirst);
         const second = randomNumber(maxSecond, minSecond);
@@ -65,6 +65,4 @@ export default class Generator {
     }
 }
 
-
-
-
+export default new Generator();
