@@ -1,8 +1,6 @@
 import assert from 'assert';
 import Generator from '../src/services/generator.service.js';
 
-const Gen = new Generator();
-
 describe("Testing subtraction expressions", function(){
     it("Subtraction of positive numbers", function(){
          
@@ -13,7 +11,7 @@ describe("Testing subtraction expressions", function(){
             expression: "10 - 3",
             answer: 7
         };
-        const result = Gen.subtraction(10, 10, 3, 3);
+        const result = Generator.subtraction(10, 10, 3, 3);
         assert.equal(result.answer, expected.answer);
         assert.equal(result.expression, expected.expression);
         assert.equal(result.operation, expected.operation);
@@ -29,7 +27,7 @@ describe("Testing subtraction expressions", function(){
             expression: "-5 - -3",
             answer: -2
         };
-        const result = Gen.subtraction(-5, -5, -3, -3, 1);
+        const result = Generator.subtraction(-5, -5, -3, -3, 1);
         assert.equal(result.answer, expected.answer);
         assert.equal(result.expression, expected.expression);
         assert.equal(result.operation, expected.operation);
