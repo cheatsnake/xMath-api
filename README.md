@@ -1,3 +1,5 @@
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/cheatsnake/xMath-api/issues)
+
 # xMath-api
 A free API for generating random mathematical expressions.
 
