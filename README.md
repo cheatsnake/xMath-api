@@ -1,6 +1,6 @@
-![Website](https://img.shields.io/website?down_color=green&down_message=xMath%20API&up_color=blue&up_message=xMath%20API&url=https%3A%2F%2Fx-math.herokuapp.com%2F)
-![GitHub repo size](https://img.shields.io/github/repo-size/cheatsnake/xMath-api)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cheatsnake/xMath-api/blob/master/LICENSE)
+[![Website](https://img.shields.io/website?down_color=green&down_message=xMath%20API&up_color=blue&up_message=xMath%20API&url=https%3A%2F%2Fx-math.herokuapp.com%2F)](https://x-math.herokuapp.com/)
+![GitHub repo size](https://img.shields.io/github/repo-size/cheatsnake/xMath-api?color=9cf)
+![GitHub](https://img.shields.io/github/license/cheatsnake/xMath-api?color=%235DAF83)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/cheatsnake/xMath-api/issues)
 
 # xMath-api
