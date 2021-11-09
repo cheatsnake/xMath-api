@@ -3,40 +3,40 @@
 ![GitHub](https://img.shields.io/github/license/cheatsnake/xMath-api?color=%235DAF83)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/cheatsnake/xMath-api/issues)
 
-# xMath-api
+# :rocket: xMath-api
 A free API for generating random mathematical expressions.
 
-## How to use it?
+## :grey_question: How to use it?
 The API provides you with the ability to get a random expression with mathematical operations such as addition, subtraction, multiplication or division. You get an object containing two numbers, an operation sign, and the result of an expression.
 
 You can choose the operation you need or get a random operation.
 
-#### Random expression 
+#### :game_die: Random expression 
 ```sh
 https://x-math.herokuapp.com/api/random
 ```
 
-#### Only addition 
+#### :heavy_plus_sign: Only addition
 ```sh
 https://x-math.herokuapp.com/api/add
 ```
 
-#### Only subtraction
+#### :heavy_minus_sign: Only subtraction
 ```sh
 https://x-math.herokuapp.com/api/sub
 ```
 
-#### Only multiplication
+#### :heavy_multiplication_x: Only multiplication
 ```sh
 https://x-math.herokuapp.com/api/mul
 ```
 
-#### Only division
+#### :heavy_division_sign: Only division
 ```sh
 https://x-math.herokuapp.com/api/div
 ```
 
-## Parameters
+## :wrench: Parameters
 By default, the range of numbers from 1 to 99 is set for all expressions. But you can adjust the range (for any operation) yourself using the parameters.
 
 #### Range of generated numbers
@@ -63,7 +63,7 @@ But this will not work for the subtraction operation, because by default there t
 https://x-math.herokuapp.com/api/sub?negative=1
 ```
 
-## Examples
+## :grey_exclamation: Examples
 
 ```sh
 https://x-math.herokuapp.com/api/random?max=999&negative=1
