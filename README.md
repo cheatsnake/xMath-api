@@ -1,3 +1,5 @@
+## ⚠️ xMath API is deprecated. Now it is [part of Shadify project](https://github.com/cheatsnake/shadify#math).
+
 [![Website](https://img.shields.io/website?down_color=green&down_message=xMath%20API&up_color=blue&up_message=xMath%20API&url=https%3A%2F%2Fx-math.herokuapp.com%2F)](https://x-math.herokuapp.com/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/cheatsnake/xMath-api?color=9cf)
 ![GitHub](https://img.shields.io/github/license/cheatsnake/xMath-api?color=%235DAF83)
